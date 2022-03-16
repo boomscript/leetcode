@@ -7,4 +7,5 @@ do
         echo "$line"
     fi
     ((LINE++))     
+
 done <"./file.txt"
