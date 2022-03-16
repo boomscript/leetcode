@@ -33,3 +33,8 @@ do
     fi
     ((LINE++))     
 done <"./file.txt"
+
+
+# IFS=$'\n' - MEANING
+# IFS stands for "internal field separator". It is used by the shell to determine how to do word splitting, 
+# i.e. how to recognize word boundaries.
