@@ -14,14 +14,13 @@
 # Line 8
 # Line 9
 # Line 10
+
 # Your script should output the tenth line, which is:
 
 # Line 10
 # Note:
 # 1. If the file contains less than 10 lines, what should you output?
 # 2. There's at least three different solutions. Try to explore all possibilities.
-
-
 
 LINE=1
 
@@ -33,3 +32,7 @@ do
     fi
     ((LINE++))     
 done <"./file.txt"
+
+# IFS=$'\n' - MEANING
+# IFS stands for "internal field separator". It is used by the shell to determine how to do word splitting, 
+# i.e. how to recognize word boundaries.
